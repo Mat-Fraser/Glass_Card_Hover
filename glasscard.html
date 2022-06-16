@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass cards</title>
+    <link rel="stylesheet" href="glasscard.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>React JS</h3>
+                <p><strong>React</strong> is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.React can be used as a base in the development of single-page, mobile, or server-rendered application</p>
+                <a href="https://reactjs.org/tutorial/tutorial.html" target="_blank">learn more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Vue JS</h3>
+                <p><strong>Vue.js</strong> is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications.It was created by Evan You, and is maintained by him and the rest of the active core team members.</p>
+                <a href="https://vuejs.org/guide/introduction.html" target="_blank">learn more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Angular JS</h3>
+                <p><strong>Angular</strong> is a typeScript-based free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</p>
+                <a href="https://angular.io/docs" target="_blank">learn more</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 25,
+		speed: 400,
+        glare:true,
+        "max-glare":1,    
+	});
+    </script>
+</body>
+</html>
