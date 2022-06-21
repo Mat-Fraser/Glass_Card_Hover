@@ -2,7 +2,7 @@
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+It's hover-card with hover effects (i.e whenever the mouse hover it displays its content with some little animation).It also has glass effect in it.
 
 ### User Interface
 
